@@ -1,0 +1,95 @@
+.industries-container {
+    width: auto
+}
+
+.industry-list {
+    display: flex;
+}
+
+.industries-text {
+    background: #f2f2f2;
+    padding: 2.5rem 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+.industry-list h2 {
+    align-self: flex-start;
+    margin-bottom: 5%;
+}
+
+.industry-list h2 {
+    background: #092a34;
+    font-size: 1rem;
+    letter-spacing: .3px;
+    padding: 11px 22px;
+}
+
+.industry-list > div {
+    display: flex;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.industry-list a {
+    color: #fff;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.industry-list > div > a:hover {
+    background: rgb(242 242 242 / 13%);
+}
+
+.industry-list h3 {
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 1.75rem;
+    letter-spacing: 0.5px;
+    margin: 10% 0 5%;
+}
+
+.link-text {
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    text-transform: none;
+    padding: 10% 0 0;
+}
+
+.retails {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2021/05/fahmi-fakhrudin-nzyzAUsbV0M-unsplash-1.jpg);
+}
+
+.industrial {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2021/05/zhang-fengsheng-gUKv_yrQ_tk-unsplash-1.jpg);
+}
+
+.cpg {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2021/05/Brass-Beer-Taps.jpg);
+}
+
+.oil-gas {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2021/03/marek-okon-PFXF0EDnDyA-unsplash-1-1.jpg);
+}
+
+
+@media (max-width:768px) {
+    .industry-list > div {
+        width: 100%;
+        min-height: 100%;
+    }
+    
+    .industry-list {
+        flex-direction: column;
+    }
+}

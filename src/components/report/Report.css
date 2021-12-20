@@ -1,0 +1,48 @@
+.report-container {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 7%;
+    padding: 0 3%;
+}
+
+.report-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+}
+
+.report-img {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2021/03/Gartner-2021-1.jpg);
+    width: 35%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.report-text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.report-text a {
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+    margin-top: 5%;
+    align-self: start;
+}
+
+@media (max-width:768px) {
+    .report-container, .report-img, .report-text {
+        width: 100%;
+    }
+    
+    .report-img {
+        height: 180px;
+    }
+}

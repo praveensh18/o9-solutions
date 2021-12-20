@@ -1,0 +1,77 @@
+.job-container {
+    display: flex;
+    width: 100%;
+}
+
+.job-description {
+    background-image: url(https://o9solutions.com/wp-content/uploads/2020/08/o9-hiring-home.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10% 5% 7%;
+}
+
+.left-section {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.job-logo {
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.job-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.job-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.job-content p {
+    font-size: 2.5rem;
+}
+
+.right-section a {
+    color: #fff;
+}
+
+.right-section .more-info-btn:hover {
+    border: 2px solid #fff;
+}
+
+
+@media (max-width:768px) {
+    .left-section, .right-section  {
+        width: 100%;
+    }
+    .job-logo {
+        width: 50%;
+    }
+}
+
+@media (max-width:480px) {
+    .job-logo {
+        width: 100%;
+    }
+}
