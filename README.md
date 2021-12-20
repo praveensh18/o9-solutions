@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You’ll need to have Node >= 14 on your local development machine
 
 ## Available Scripts
 
