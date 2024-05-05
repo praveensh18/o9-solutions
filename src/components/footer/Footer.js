@@ -69,6 +69,7 @@ class Footer extends React.Component {
                 <a>Cookie policy</a>
                 <a>Support</a>
                 <a>o9 Guides</a>
+                <a>Demo created by Praveen</a>
             </div>
         </div>
         )
