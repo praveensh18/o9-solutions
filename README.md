@@ -1,5 +1,7 @@
 # o9 Solutions home page
 
+## This Project is live here - https://o9-home-page.vercel.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 You’ll need to have Node >= 14 on your local development machine
 
